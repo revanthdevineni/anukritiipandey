@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#nav{
+    width: 100%;
+}
+div{
+    width: 100%;
+    background-color: white;
+    height: 4vh;
+    position: sticky;
+    top: 0px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+#stickynav{
+    width: 50%;
+    height: 4vh;
+    position: sticky;
+    left: 25%;
+}
+fieldset{
+    width: 400px;
+    height: 450px;
+    margin-top: 10px;
+    margin-left: 2%;
+    background-color: purple;
+    border: solid 2px black;
+    border-radius: 10px;
+    background-image: url(../../asset/image/anu.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: center;
+    transition: background-position , background-size;
+    transition-duration: 2s;
+    transition-timing-function: ;
+}
+legend{
+    text-align: center;
+    font-size: 30px;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 220px;
+}
+fieldset:hover{
+    background-position: left;
+    background-size: 120px;
+}
+p{
+    font-size: 13px;
+    width: 250px;
+    float: right;
+    text-align: justify;
+    font-weight: bold;
+    padding-right: 5px;
+    color: transparent;
+    transition: color;
+    transition-duration: 2s;
+
+    
+}
+h1{
+    text-align: right;
+    padding-right: 15px ;
+    color: transparent;
+    transition: color ;
+    transition-duration: 2s;
+}
+fieldset:hover>p{
+    color: white;
+}
+fieldset:hover>h1{
+    color: lawngreen;
+}
+#socialmedia{
+    margin-top: 10px;
+    color: black;
+    background-color: lawngreen;
+    text-align:center;
+
+}
+#social{
+    color: black;
+    margin-right:145px;
+}
